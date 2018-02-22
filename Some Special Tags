@@ -1,0 +1,56 @@
+1. The alt Attribute
+The value of the attribute can be read by screen readers. This way, someone "listening" to the webpage, e.g. a blind person, can "hear" the element.
+The alt attribute specifies an alternative text to be used, when an image cannot be displayed.
+
+2. The lang Attribute
+The language of the document can be declared in the <html> tag.
+<html lang="en-US">
+The language is declared with the lang attribute.
+
+Declaring a language is important for accessibility applications (screen readers) and search engines:
+
+3. The HTML <pre> element defines preformatted text.
+4. The HTML <small> element defines smaller text:
+5. The HTML <mark> element defines marked or highlighted text
+6. The HTML <del> element defines deleted (removed) text.
+7. The HTML <ins> element defines inserted (added) text.
+The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks
+IMPORTANT POINTS
+1.Headings Are Important
+Search engines use the headings to index the structure and content of your web pages.
+
+Users skim your pages by its headings. It is important to use headings to show the document structure.
+
+<h1> headings should be used for main headings, followed by <h2> headings, then the less important <h3>, and so on.
+
+Note: Use HTML headings for headings only. Don't use headings to make text BIG or bold
+
+
+2. The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+
+The <hr> element is used to separate content (or define a change) in an HTML page
+
+3. Browsers display <strong> as <b>, and <em> as <i>. However, there is a difference in the meaning of these tags: <b> and <i> defines bold and italic text, but <strong> and <em> means that the text is "important".
+
+
+NOT COOMONLLY USED TAGS
+1. The HTML <blockquote> element defines a section that is quoted from another source.
+
+Browsers usually indent <blockquote> elements.
+
+2. The HTML <abbr> element defines an abbreviation or an acronym. wHEN WE bring cursor on it,it shows text.
+
+Marking abbreviations can give useful information to browsers, translation systems and search-engines.
+
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+3. he HTML <address> element defines contact information (author/owner) of a document or an article.
+
+The <address> element is usually displayed in italic. Most browsers will add a line break before and after the eleme
+
+4. HTML <bdo> for Bi-Directional Override
+The HTML <bdo> element defines bi-directional override.
+
+The <bdo> element is used to override the current text direction:
+
+5. <bdo dir="rtl">This text will be written from right to left</bdo>
